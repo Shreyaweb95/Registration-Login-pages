@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body background="Laptop-Royal.png">
+<div class="container">
+    
+    
+    
+ <div class="container"> 
+    <h1>Welcome to your Account</h1>
+    <h2> Please logIn to continue</h2>
+    <hr>
+    <form action="https://www.google.co.in/" method="GET">
+
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter Email" required>
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd"  pattern=".{5,10}" title="password should be min 5 max 10" placeholder="Enter Password" required>
+        </div>
+
+        <div class="form-group">
+            <label for="textarea">Description:</label><br>
+            <input type="textarea" class="form-control" placeholder="Write about it" name="textarea" id="text" required><br>
+        </div>
+
+        <div class="checkbox">
+          <label><input type="checkbox" required> Remember me</label>
+        </div>
+        <button type="submit" class="btn btn-danger">Submit</button>
+      </form>
+</div>
+    
+</div>
+</body>
+</html>
